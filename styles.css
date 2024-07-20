@@ -1,3 +1,5 @@
+/* styles.css */
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -53,7 +55,7 @@ body {
     background-color: #d3a4f6;
     padding: 5px 10px;
     border-radius: 5px;
-    color: #FB2E8D; /* Ensuring the text color in contact button is also correct */
+    color: #fff !important; /* Ensuring the text color in contact button is also correct */
 }
 
 .main-banner img {
@@ -67,9 +69,13 @@ body {
     background-color: #f7f7f7;
 }
 
+.about-us .logo-title {
+    color: #FC2F8E;
+}
+
 .about-us h2 {
     font-size: 36px;
-    color: #e83e8c;
+    color: black;
 }
 
 .about-us p {
@@ -118,7 +124,7 @@ body {
     margin-bottom: 20px;
     border-radius: 10px;
     overflow: hidden;
-    text-align: center;
+    text-align: left;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -131,7 +137,7 @@ body {
 
 .product-info {
     background-color: #fff;
-    padding: 10px;
+    padding: 20px;
     border-top: 1px solid #ccc;
 }
 
@@ -143,7 +149,7 @@ body {
 
 .product-info p {
     font-size: 16px;
-    color: #e83e8c;
+    color: #B62D2D;
     margin: 0;
 }
 
