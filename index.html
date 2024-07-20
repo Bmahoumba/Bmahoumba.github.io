@@ -87,11 +87,11 @@
     <div class="container">
         <h2>CONTACTEZ NOUS</h2>
 
-        <div id="success-message" class="alert-success" style="display: none;">
-            Merci de nous avoir contacté.
-        </div>
+        <form id="contact-form" onsubmit="onSubmit(event)">
+            <div id="success-message" class="alert-success" style="display: none">
+                Merci de nous avoir contacté.
+            </div>
 
-        <form onsubmit="onSubmit(event)">
             <div class="form-row">
                 <div class="form-group">
                     <input type="text" id="prenom" name="prenom" placeholder="Prénoms" required>
@@ -159,6 +159,7 @@
     function onSubmit(event) {
         event.preventDefault();
         document.getElementById('success-message').style.display = 'block';
+        event.target.reset();
     }
 </script>
 </html>
