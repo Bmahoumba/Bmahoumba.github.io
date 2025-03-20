@@ -220,7 +220,7 @@ footer {
 }
 
 .footer-section {
-    width: 30%
+   flex:1;
     text-align: left;
 }
 
