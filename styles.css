@@ -217,6 +217,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    gap:30px;
 }
 
 .footer-section {
@@ -246,6 +247,7 @@ footer {
 .footer-section h3 {
     font-size: 24px;
     margin-bottom: 10px;
+    text-align:left;
 }
 
 .footer-section ul {
